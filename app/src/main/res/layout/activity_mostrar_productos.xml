@@ -16,7 +16,7 @@
         android:padding="16dp"
         android:text="Lista de Productos"
         android:textColor="#304FFE"
-        android:textSize="24sp"
+        android:textSize="48sp"
         android:textStyle="bold"
         app:layout_constraintTop_toTopOf="parent" />
 
@@ -48,6 +48,7 @@
         android:layout_height="wrap_content"
         android:layout_marginEnd="10dp"
         android:layout_marginBottom="16dp"
+        android:backgroundTint="#3949AB"
         android:padding="12dp"
         android:text="+"
         android:textColor="#FFFFFF"

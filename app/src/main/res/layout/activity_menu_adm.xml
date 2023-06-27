@@ -65,7 +65,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="15dp"
-            android:backgroundTint="#FF5900"
+            android:backgroundTint="#3949AB"
             android:text="Productos"
             android:textColor="#FFFFFF" />
 
@@ -74,7 +74,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="28dp"
-            android:backgroundTint="#FF5900"
+            android:backgroundTint="#3949AB"
             android:text="Mantenedor Categorias"
             android:textColor="#FFFFFF" />
 
@@ -83,7 +83,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="28dp"
-            android:backgroundTint="#FF5900"
+            android:backgroundTint="#3949AB"
             android:text="Agregar Productos"
             android:textColor="#FFFFFF" />
 
