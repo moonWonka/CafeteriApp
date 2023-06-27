@@ -78,8 +78,8 @@ public class MostrarProductos extends AppCompatActivity {
 
     private void cargarProductos() {
         Query query = db.collection("productos")
-                .orderBy("categoria")
-                .orderBy("timestamp");
+                .orderBy("categoria");
+
 
         FirestoreRecyclerOptions<Producto> firestoreRecyclerOptions = new FirestoreRecyclerOptions.Builder<Producto>()
                 .setQuery(query, Producto.class)
@@ -92,8 +92,7 @@ public class MostrarProductos extends AppCompatActivity {
     }
 
     private void cargarProductosPorCategoria(String categoria) {
-        Query query = db.collection("productos").whereEqualTo("categoria", categoria)
-                .orderBy("timestamp");
+        Query query = db.collection("productos").whereEqualTo("categoria", categoria);
 
         FirestoreRecyclerOptions<Producto> firestoreRecyclerOptions = new FirestoreRecyclerOptions.Builder<Producto>()
                 .setQuery(query, Producto.class)

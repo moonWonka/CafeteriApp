@@ -48,8 +48,8 @@ public class AdaptadorProductos extends FirestoreRecyclerAdapter<Producto, Adapt
             super(itemView);
 
             nombre = itemView.findViewById(R.id.tvNombre);
-            precio = itemView.findViewById(R.id.tvPrecio);
             categoria = itemView.findViewById(R.id.tvCategoria);
+            precio = itemView.findViewById(R.id.tvPrecio);
         }
     }
 }

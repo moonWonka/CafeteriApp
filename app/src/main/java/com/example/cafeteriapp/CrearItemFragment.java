@@ -84,7 +84,7 @@ public class CrearItemFragment extends DialogFragment {
             return;
         }
 
-        Producto producto = new Producto(nombre, precio, categoria);
+        Producto producto = new Producto(nombre, categoria, precio);
 
         db.collection("productos").add(producto)
                 .addOnSuccessListener(new OnSuccessListener<DocumentReference>() {

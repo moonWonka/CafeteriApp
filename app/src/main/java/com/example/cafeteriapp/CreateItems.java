@@ -73,7 +73,7 @@ public class CreateItems extends AppCompatActivity {
             return;
         }
 
-        Producto producto = new Producto(nombre, precio, categoria);
+        Producto producto = new Producto(nombre, categoria, precio);
 
         db.collection("productos").add(producto)
                 .addOnSuccessListener(new OnSuccessListener<DocumentReference>() {

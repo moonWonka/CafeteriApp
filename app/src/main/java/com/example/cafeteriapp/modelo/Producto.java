@@ -8,48 +8,38 @@ public class Producto {
     private String nombre, categoria;
     private int precio;
 
-    private Date mTimestamp;
 
     public Producto() {
         // Constructor vacío requerido para Firebase Firestore
     }
 
-    public Producto(String nombre, int precio, String categoria) {
+    public Producto(String nombre, String categoria, int precio) {
         this.nombre = nombre;
-        this.precio = precio;
         this.categoria = categoria;
+        this.precio = precio;
     }
 
     public String getNombre() {
         return nombre;
     }
 
-    public String getCategoria() {
-        return categoria;
-    }
-
-    public int getPrecio() {
-        return precio;
-    }
-
     public void setNombre(String nombre) {
         this.nombre = nombre;
+    }
+
+    public String getCategoria() {
+        return categoria;
     }
 
     public void setCategoria(String categoria) {
         this.categoria = categoria;
     }
 
+    public int getPrecio() {
+        return precio;
+    }
+
     public void setPrecio(int precio) {
         this.precio = precio;
-    }
-
-    @ServerTimestamp
-    public Date getTimestamp() {
-        return mTimestamp;
-    }
-
-    public void setTimestamp(Date timestamp) {
-        mTimestamp = timestamp;
     }
 }
