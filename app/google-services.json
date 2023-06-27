@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "472231741459",
+    "project_id": "cafeteriapp-c35f6",
+    "storage_bucket": "cafeteriapp-c35f6.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:472231741459:android:147c143e8c1a8487c617e6",
+        "android_client_info": {
+          "package_name": "com.example.cafeteriapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "472231741459-e0o3j2khr2935jhqb2h2s2qik50rm6kg.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDKQa8ExKxAvuC-Cv_HzIRiwC-ohc_sYME"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "472231741459-e0o3j2khr2935jhqb2h2s2qik50rm6kg.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

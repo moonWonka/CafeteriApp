@@ -1,0 +1,27 @@
+// Archivo de configuración de nivel superior donde puedes agregar opciones de configuración comunes a todos los subproyectos/módulos.
+
+buildscript {
+    repositories {
+        // Asegúrate de tener los siguientes dos repositorios
+        google()  // Repositorio Maven de Google
+        mavenCentral()  // Repositorio Maven Central
+    }
+    dependencies {
+        // Agrega la dependencia para el complemento Gradle de servicios de Google
+        classpath 'com.google.gms:google-services:4.3.15'
+    }
+}
+
+plugins {
+    id 'com.android.application' version '8.0.1' apply false
+    id 'com.android.library' version '8.0.1' apply false
+}
+
+allprojects {
+    repositories {
+        // Asegúrate de tener los siguientes dos repositorios
+            google()  // Repositorio Maven de Google
+        mavenCentral()  // Repositorio Maven Central
+    }
+}
+

@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android">
+    <solid android:color="#000080" /> <!-- Cambia el color según el tono de azul oscuro que desees -->
+    <corners android:radius="50dp" /> <!-- Ajusta el radio según el grado de redondez que desees -->
+</shape>
