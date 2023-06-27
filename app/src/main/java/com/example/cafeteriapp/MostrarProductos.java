@@ -85,7 +85,7 @@ public class MostrarProductos extends AppCompatActivity {
                 .setQuery(query, Producto.class)
                 .build();
 
-        mAdapter = new AdaptadorProductos(firestoreRecyclerOptions);
+        mAdapter = new AdaptadorProductos(firestoreRecyclerOptions, this);
 
         mRecyclerView.setAdapter(mAdapter);
         mAdapter.startListening();
@@ -99,7 +99,7 @@ public class MostrarProductos extends AppCompatActivity {
                 .build();
 
         mAdapter.stopListening(); // Detener la escucha del adaptador actual
-        mAdapter = new AdaptadorProductos(firestoreRecyclerOptions);
+        mAdapter = new AdaptadorProductos(firestoreRecyclerOptions, this);
         mRecyclerView.setAdapter(mAdapter);
         mAdapter.startListening(); // Iniciar la escucha con el nuevo adaptador
     }

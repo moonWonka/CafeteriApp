@@ -80,7 +80,7 @@
             android:orientation="vertical">
 
             <ImageView
-                android:id="@+id/imageView2"
+                android:id="@+id/btn_editar"
                 android:layout_width="wrap_content"
                 android:layout_height="35dp"
                 android:layout_margin="5dp"
@@ -89,7 +89,7 @@
                 app:srcCompat="@drawable/edit_icon" />
 
             <ImageView
-                android:id="@+id/imageView3"
+                android:id="@+id/btn_borrar"
                 android:layout_width="wrap_content"
                 android:layout_height="35dp"
                 android:layout_margin="5dp"
